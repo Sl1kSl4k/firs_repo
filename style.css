@@ -1,0 +1,35 @@
+body{
+				background-color: gray;
+				}
+			
+			h2{
+				color: white;
+				text-align: center;
+				font-family: Times New Roman;
+				}
+			div{
+				text-align: center;
+				font-size: 30px;
+				height: 70px;
+			}	
+			li {
+					border: 1px solid;
+					}	
+			table, th, td, tr {
+					border: 2px solid;
+					font-family: Times New Roman;
+					font-size : 18px;
+					text-align: center;
+					}
+			.center {
+				display: block;
+				margin-left:auto;
+				margin-right:auto;
+				}
+			img {
+				border-radius: 75%;
+				width: 200px;
+				height: 250px;
+				border: 5px solid #FFFFFF;
+				opacity: 0.6;
+				}
