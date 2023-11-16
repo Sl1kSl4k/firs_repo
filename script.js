@@ -11,6 +11,8 @@ var an1= document.getElementById("an1");
 var an2 = document.getElementById("an2");
 var an3 = document.getElementById("an3");
 var anNastere = document.getElementById("anNastere");
+var slideIndex= 0;
+showSlides();
 
 const d = new Date();
 var anCurent = d.getFullYear();
@@ -25,7 +27,7 @@ function altaViata ()
 {
 	nume.innerHTML = "Functie: Senior Java Dev";
 	prenume.innerHTML = "Professional Penetration Tester and Ethical Hacker";
-	img.src = "hacker.jpg";
+	img.src = "american assassin.jpg";
 	asteptari1.innerHTML = "M-a ajutat mult, am facut un cod ce ii deregleza semnalul de la televizor al vecinului meu";
 	asteptari2.innerHTML = "Am desprins multa experienta, astfel mi-am deshis in sfarsit un site pentru vanzari de date personale";
 	asteptari3.innerHTML = "Am invatat foarte multe, am reusit sa fac un EMP Grenade care opreste muzica vecinilor de la etajul 2";
@@ -49,3 +51,33 @@ function displayAge ()
 	
 	
 }	
+
+function showSlides() {
+	var i;
+	var slides = document.getElementsByClassName("mySlides");
+	
+	for (i = 0 ; i < slides.length ; i++) {
+		slides[i].style.display = "none";
+	}
+	
+	slideIndex++;
+	
+	if (slideIndex > slides.length) {
+		slideIndex=1;
+	}
+	
+	slides[slideIndex - 1].style.display = "block";
+	setTimeout(showSlides, 3000);
+	
+}			
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

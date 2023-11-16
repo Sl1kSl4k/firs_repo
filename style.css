@@ -33,3 +33,12 @@ body{
 				border: 5px solid #FFFFFF;
 				opacity: 0.6;
 				}
+			.slideshow-container {
+				max-width: 800px;
+				position: relative;
+				margin: auto;
+			}
+			
+			.mySlides {
+				display: none;
+				}		
